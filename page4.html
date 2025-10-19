@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gift Surprise - Minakshi</title>
+<link rel="stylesheet" href="css/style.css"></head>
+<body>
+<canvas id="fireworkCanvas"></canvas>
+<section class="content" style="text-align:center">
+  <h2 class="name" style="font-size:48px">A Chhoti Si Surprise</h2>
+  <div style="margin-top:18px">
+    <div class="gift" onclick="document.getElementById('giftMsg').style.display='block'; this.style.transform='scale(0.98)'; setTimeout(()=>this.style.transform='scale(1)',160)">
+      <svg width="140" height="140" viewBox="0 0 120 120"><rect x="10" y="30" width="100" height="70" rx="10" fill="linearGradient" style="fill:#ffd27a"/><path d="M60 30 C68 18 84 20 86 32 C88 46 70 44 60 38" fill="#ff6b6b" opacity="0.95"/></svg>
+      <div style="padding:12px;">Click to Open</div>
+    </div>
+    <div id="giftMsg" style="display:none;margin-top:18px;padding:16px;border-radius:12px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.03)">
+      <div style="font-weight:700;font-size:18px">Affan ke taraf se ek pyaara sa message:</div>
+      <div style="margin-top:8px">Minakshi, tumhari zindagi hamesha roshan rahe. Diwali ki bahut bahut mubarak!</div>
+    </div>
+  </div>
+  <div style="margin-top:22px"><button class="btn" onclick="easyNav('page5.html')">Next: Wishes</button></div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
